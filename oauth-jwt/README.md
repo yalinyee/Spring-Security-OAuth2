@@ -13,7 +13,7 @@
    请求
 
 ```
-curl -X POST "http://localhost:8084/oauth/token" --user clientapp:789 -d "grant_type=client_credentials&scope=devops"
+curl -X POST "http://localhost:8085/oauth/token" --user clientapp:789 -d "grant_type=client_credentials&scope=devops"
 ```
 
 ​      返回

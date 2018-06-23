@@ -16,3 +16,7 @@
 
 
 - password-server 密码模式
+
+
+
+- oauth-jwt        JWT模式

@@ -13,7 +13,7 @@
    请求
 
 ```
-curl -X POST "http://localhost:8081/oauth/token" --user clientapp:789 -d "grant_type=client_credentials&scope=devops"
+curl -X POST "http://localhost:8084/oauth/token" --user clientapp:789 -d "grant_type=client_credentials&scope=devops"
 ```
 
 ​      返回
@@ -43,7 +43,7 @@ curl -X POST "http://localhost:8081/oauth/token" --user clientapp:789 -d "grant_
   请求：
 
 ```
-curl -X GET http://localhost:8081/api/userinfo -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6WyJkZXZvcHMiXSwiZXhwIjoxNTI5NzY2MjU5LCJqdGkiOiIwOTY0ODVmNi1kODQ3LTQ5OWMtOGI3Ni1jOWEzMTZjMThmZGEiLCJjbGllbnRfaWQiOiJjbGllbnRhcHAifQ.rnKJRVOy0T342K0YqVIk9YGIRpVx872PwpCbKL_LRKM"
+curl -X GET http://localhost:8085/api/userinfo -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6WyJkZXZvcHMiXSwiZXhwIjoxNTI5NzY2MjU5LCJqdGkiOiIwOTY0ODVmNi1kODQ3LTQ5OWMtOGI3Ni1jOWEzMTZjMThmZGEiLCJjbGllbnRfaWQiOiJjbGllbnRhcHAifQ.rnKJRVOy0T342K0YqVIk9YGIRpVx872PwpCbKL_LRKM"
 ```
 
 ​     响应：
